@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply m-0 p-0 bg-gray-200 h-full;
+    }
+
+    html,
+    body,
+    #whatever,
+    .container {
+        @apply h-full flex justify-center;
+    }
+}

@@ -1,0 +1,4 @@
+@layer components {
+    .loader { @apply w-full h-full flex justify-center items-center; }
+    .movies { @apply grid grid-cols-2 gap-4 p-12 pt-16; }
+}

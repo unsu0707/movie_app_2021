@@ -1,0 +1,9 @@
+@layer components {
+    .movie { @apply rounded-md bg-white mb-16 flex items-start justify-between font-light p-5 shadow-xl; }
+    .movie img {
+        @apply rounded-md relative mr-8 max-w-md -top-12 shadow-xl;
+    }
+    .movie h3,
+    .movie h5 { @apply m-0 font-light; }
+    .movie h3 { @apply mb-1 text-2xl; }
+}
